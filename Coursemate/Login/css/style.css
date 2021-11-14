@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.login-dark {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/mentahan\ background.png") center / cover no-repeat, #475d62;
+    position: relative;
+  }
+  
+  .login-dark form {
+    width: 310px;
+    height: 500px;
+    background-color: #1e2833;
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+  }
+  
+  .login-dark .form-logo {
+    text-align: center;
+    padding: 15px 0 20px;
+    font-size: 100px;
+    color: #2980ef;
+  }
+  
+  .login-dark form .form-control {
+    font-size: 18px;
+    width: 290px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #434a52;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+  }
+
+  #mail{
+    margin-bottom: 25px;
+  }
+  
+  .login-dark form .btn-primary {
+    
+    width: 255px;
+    background: #214a80;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 30px;
+    text-shadow: none;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background: #214a80;
+    outline: none;
+  }
+  
+  .login-dark form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    color: #0a58ca;
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform: translateY(1px);
+  }
+  
+  #logo {
+    width: 95px;
+  }
+  
+  #form_log {
+    background: rgb(255,255,255);
+  }
+  
+  .form-logo {
+    padding: 14px 0px 20px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .login-dark form .btn-primary:active {
+    transform: translateY(1px);
+  }
+
+  button:focus:not(:focus-visible) {
+    outline: 0;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  
+  .btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+  }
+  
+  .btn:hover {
+    color: #212529;
+  }
+  
+  .w-100 {
+    width: 100%!important;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  #output{
+    font-style: bold;
+    margin-top: 35px;
+    color: red;
+    text-align: center;
+  }
+  
+            
+  
+  
+  
+  
+
+  
