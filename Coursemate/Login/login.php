@@ -14,7 +14,6 @@
 <body>
     <section class="d-lg-flex login-dark">
         <form id="form_log" method="post">
-            <h2 class="visually-hidden">Login Form</h2>
             <?php
                 if(isset($_GET['msg'])){
                     echo "<div class='alert alert-error'>".$_GET['msg']."</div>";
